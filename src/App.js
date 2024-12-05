@@ -90,7 +90,7 @@ const MainApp = () => {
               <span className="text-white text-2xl font-bold">BARI</span>
             </div>
             <div className="flex items-center space-x-6">
-              <WalletMultiButton className="bg-purple-600 text-white font-bold rounded-lg px-4 py-2" />
+              {/* <WalletMultiButton className="bg-purple-600 text-white font-bold rounded-lg px-4 py-2" /> */}
             </div>
           </div>
         </div>
@@ -109,14 +109,14 @@ const MainApp = () => {
         <p className="text-lg md:text-xl">
           BARI, our beloved mascot and the heart of the BARI Token community, has disappeared! Join our exciting Find BARI Airdrop Campaign.
         </p>
-        <a href='https://raydium.io/swap/?inputMint=sol&outputMint=52ireEct8MqJCoKK63i6k9LH1HtK5dnWwkKKtf8epump'>
+        {/* <a href='https://raydium.io/swap/?inputMint=sol&outputMint=52ireEct8MqJCoKK63i6k9LH1HtK5dnWwkKKtf8epump'>
         <button
           // onClick={handlePurchase}
           className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 md:px-8 rounded-lg transition-all duration-300 transform hover:scale-105"
         >
           Purchase BARI Tokens
         </button>
-        </a>
+        </a> */}
       </div>
       
       {/* Image Section */}
@@ -306,9 +306,11 @@ const MainApp = () => {
           <p className="text-purple-200 mb-8 max-w-2xl mx-auto">
             Embark on this fun and rewarding journey with the BARI Token community. Every post brings us closer to finding BARI and supporting thousands of lost pets nationwide.
           </p>
+          <a href="https://t.me/+mRiVTsUphWc3MGRh">
           <button className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105">
             Join the Hunt Now
           </button>
+          </a>
         </div>
       </section>
 
